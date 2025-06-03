@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.9">
+  <diagram name="Trang-1" id="6TjBne9xKEgtettmPB2o">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YY0rz8k4pzjtgBnNCztn-1" target="YY0rz8k4pzjtgBnNCztn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Comment&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="475" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="YY0rz8k4pzjtgBnNCztn-4" target="YY0rz8k4pzjtgBnNCztn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-4" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Pre-processing:&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Interpreting abbreviations&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;correcting spelling errors&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;reversing wordplay&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="257" y="460" width="216" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-6" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Does the comment contain&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;insulting or degrading language&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="237.5" width="250" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Neutral&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Offensive&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1181" y="585" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Hate&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="275" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=21;fontStyle=1;align=center;strokeWidth=2;startArrow=none;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="YY0rz8k4pzjtgBnNCztn-6" target="YY0rz8k4pzjtgBnNCztn-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="100" as="sourcePoint" />
+            <mxPoint x="690" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-15" value="NO" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;fontStyle=1" connectable="0" vertex="1" parent="YY0rz8k4pzjtgBnNCztn-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-338" y="90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-16" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="380" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YY0rz8k4pzjtgBnNCztn-17" target="YY0rz8k4pzjtgBnNCztn-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="880" as="targetPoint" />
+            <mxPoint x="459" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-22" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1" connectable="0" vertex="1" parent="YY0rz8k4pzjtgBnNCztn-21">
+          <mxGeometry x="-0.0534" y="2" relative="1" as="geometry">
+            <mxPoint x="-93" y="-213" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-17" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Is the comment targeted at a&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;specific individual or group?&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="240" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=21;fontStyle=1;align=center;strokeWidth=2;startArrow=none;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="YY0rz8k4pzjtgBnNCztn-6" target="YY0rz8k4pzjtgBnNCztn-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="258" as="sourcePoint" />
+            <mxPoint x="1205" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-20" value="YES" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;fontStyle=1" connectable="0" vertex="1" parent="YY0rz8k4pzjtgBnNCztn-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-23" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Is the comment&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;biased or hateful based on identity (religion, race, gender, ...)&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="240" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=21;fontStyle=1;align=center;strokeWidth=2;startArrow=none;startFill=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YY0rz8k4pzjtgBnNCztn-17" target="YY0rz8k4pzjtgBnNCztn-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="761" y="330" as="sourcePoint" />
+            <mxPoint x="700" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-25" value="YES" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;fontStyle=1" connectable="0" vertex="1" parent="YY0rz8k4pzjtgBnNCztn-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=21;fontStyle=1;align=center;strokeWidth=2;startArrow=none;startFill=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YY0rz8k4pzjtgBnNCztn-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="300" as="sourcePoint" />
+            <mxPoint x="1170" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-27" value="YES" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;fontStyle=1" connectable="0" vertex="1" parent="YY0rz8k4pzjtgBnNCztn-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-28" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Is the comment&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;insulting or profane&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="440" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-31" value="" style="endArrow=classic;html=1;rounded=0;fontSize=21;fontStyle=1;align=center;strokeWidth=2;startArrow=none;startFill=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="YY0rz8k4pzjtgBnNCztn-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="514.63" as="sourcePoint" />
+            <mxPoint x="1170" y="514.63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-32" value="YES" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;fontStyle=1" connectable="0" vertex="1" parent="YY0rz8k4pzjtgBnNCztn-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-33" value="" style="endArrow=classic;html=1;rounded=0;fontSize=21;fontStyle=1;align=center;strokeWidth=2;startArrow=none;startFill=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YY0rz8k4pzjtgBnNCztn-23" target="YY0rz8k4pzjtgBnNCztn-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="470" as="sourcePoint" />
+            <mxPoint x="960" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YY0rz8k4pzjtgBnNCztn-34" value="NO" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;fontStyle=1" connectable="0" vertex="1" parent="YY0rz8k4pzjtgBnNCztn-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
